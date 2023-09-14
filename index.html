@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Lobo</title>
+    <!--Icone Menu-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--CSS'S e FAVICON-->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
+    <link rel="shortcut icon" href="./assets/imagens/favicon.ico" type="image/x-icon">
+    <!--Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+
+</head>
+<body onload="onLoadBlock()">
+    <header>
+        <div class="logo">
+            <div class="name">
+                <h3>RESTAURANTE LOBO</h3>
+            </div>
+            <div class="logoImagem">
+                <img class="lobouivando" src="assets/imagens/lobouivando.avif" alt="lobouivando">
+            </div>
+        </div>
+
+        <div id="menu" class="material-icons" onclick="clickMenu()">menu</div>
+       
+        <nav id="navBarLeft">
+            <ul>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="">NOSSA CASA</a></li>
+                <li><a href="">RESERVA</a></li>
+            </ul>
+            <ul>
+                <li><a href="">CONTATO</a></li>
+                <li><a href="">TRABALHE CONOSCO</a></li>
+            </ul>
+
+            <form action="main.js" method="get" autocomplete="off">
+                <p>
+                    <label for="searchM"></label>
+                    <input type="search" name="search" id="searchM" placeholder="Search">
+                </p>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="pedirOnlineOuReserva">
+            <div class="pedidos">
+                <p>PEDIR ONLINE</p>
+           </div>
+           <div class="pedidos">
+                <p>FAZER RESERVA</p>
+           </div>
+        </section>
+    </main> 
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
