@@ -26,8 +26,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: fadeInLeft;
-    animation-duration: 2s;
+    
 }
 
 .lobouivando {
@@ -38,36 +37,38 @@ header {
 }
 
 #menu {
+    margin-left: 0;
     cursor: pointer;
 }
 
-#navBarLeft {
+#navDrop {
     background-color: var(--cor-de-fundo);
-    display: flex;
-    flex-direction: column;
-    align-items: left;
     border-radius: 5px;
-    height: 25rem;
-    padding: 10px;
-    margin-top: 10px;
-   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.696);
+    height: 26.8rem;
+    padding: 10px 0 10px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.696);
+    position: absolute;
+    width: 100%;
+    left: 0;
 }
 
-li {
-    margin-top: 10px;
+#navDrop li  {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 form {
     margin-top: 3rem;
-}
-
-a {
-    text-decoration: none;
-    color: var(--cor-de-fonte);
+    text-align: center;
+    width: 100%;
 }
 
 main {
-    background: url(../imagens/bebe.jpg) no-repeat center center fixed;
+    background: url(../imagens/bebe.jpg) no-repeat center center;
     background-size: cover;
     height: 27rem;
     top: 60px;
@@ -81,22 +82,125 @@ main {
     height: 100%;
 }
 
-.pedidos {
-    padding: 1rem;
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-de-fonte);
+.pedirOnlineOuReserva .pedidos button {
     width: 150px;
-    margin-bottom: 20px;
-    border-radius: 7px;
-    box-shadow: 2px 2px 4px var(--cor-de-fundo);
-    transition: transform 0.4s ease, opacity 0.4s ease;
-    animation: fadeInLeft;
-    animation-duration: 2s;
+    margin-top: 10px;
+    background-color: var(--cor-de-fundo);
+    height: 2rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px var(--cor-de-fundo); 
+    border: none;
+    transition: transform 0.3s ease-in-out;
 }
 
-.pedidos:hover {
-    background-color: var(--cor-de-fonte);
-    color: var(--cor-de-fundo);
-    transform: scale(1.2);
-    opacity: 0.7;
+.pedirOnlineOuReserva .pedidos button:hover {
+    transform: scale(1.1);
 }
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-fonte);
+}
+
+.imagens {
+    background: url(../imagens/blackAndWhite.jpg) no-repeat top;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.menuCasaDelivery {
+    background-color: rgba(198, 198, 198, 0.35);
+    margin-top: 30px;
+}
+
+.menuCasaDelivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuCasaDelivery p, p {
+    width: 20rem;
+    font-weight: bolder;
+}
+
+.menuCasaDelivery .pedidos button{
+    width: 150px;
+    margin-top: 10px;
+    background-color: var(--cor-de-fundo);
+    height: 2rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px var(--cor-de-fundo); 
+    border: none;
+    margin-bottom: 10px;
+}
+
+.menuCasaDelivery .pedidos button:hover {
+    transform: scale(1.1);
+}
+
+.feitoComAmor {
+    text-align: center;
+}
+
+.vertical-line, .horizontalLine {
+    border-left: 1px solid #000; 
+    height: 100px; 
+    margin: 0 10px; 
+    text-align: center;
+}
+
+.linhaVertical, .linhaHorizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: 20vh;
+}
+
+.feitoComAmor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feitoComAmor p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.linhaHorizontal {
+    font-weight: bolder;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.macarrons {
+    background: url(../imagens/macarron.jpg) no-repeat top;
+    background-size: cover;
+    height: 100vh;
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.boloNevou {
+    background: url(../imagens/boloNevou.jpg) no-repeat top;
+    background-size: cover;
+    height: 100vh;
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.boloNevou:hover, .macarrons:hover {
+    transform: scale(1.1);
+}
+
+

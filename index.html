@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante Lobo</title>
+    <title>CONFEITARIA LOBO</title>
     <!--Icone Menu-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
 
@@ -22,7 +22,7 @@
     <header>
         <div class="logo">
             <div class="name">
-                <h3>RESTAURANTE LOBO</h3>
+                <h3>CONFEITARIA LOBO</h3>
             </div>
             <div class="logoImagem">
                 <img class="lobouivando" src="assets/imagens/lobouivando.avif" alt="lobouivando">
@@ -31,16 +31,15 @@
 
         <div id="menu" class="material-icons" onclick="clickMenu()">menu</div>
        
-        <nav id="navBarLeft">
-            <ul>
-                <li><a href="">SOBRE</a></li>
-                <li><a href="">NOSSA CASA</a></li>
-                <li><a href="">RESERVA</a></li>
-            </ul>
-            <ul>
-                <li><a href="">CONTATO</a></li>
-                <li><a href="">TRABALHE CONOSCO</a></li>
-            </ul>
+        <nav id="navDrop">
+                <div class="navMobile">
+                    <li><a href="">SOBRE</a></li>
+                    <li><a href="">NOSSA CASA</a>  </li> 
+                    <li><a href="">RESERVA</a></li>
+                    <li><a href="">CONTATO</a></li>
+                    <li><a href="">TRABALHE CONOSCO</a></li>
+                </div>
+            
 
             <form action="main.js" method="get" autocomplete="off">
                 <p>
@@ -51,14 +50,62 @@
         </nav>
     </header>
     <main>
-        <section class="pedirOnlineOuReserva">
+        <section class="pedirOnlineOuReserva" >
             <div class="pedidos">
-                <p>PEDIR ONLINE</p>
+                <button><a href="">PEDIR ONLINE</a></button>
            </div>
            <div class="pedidos">
-                <p>FAZER RESERVA</p>
+                <button><a href="">FAZER RESERVA</a></button>
            </div>
         </section>
+
+        <section class="imagens">
+            <!--imagemNoCSS-->
+        </section>
+
+        <section class="menuCasaDelivery">
+            <h1>MENU</h1>
+            <hr>
+            <p>Nosso menu Delivery é reduzido pra garantir </p>
+            <p> a qualidade do Confeitaria Lobo na sua casa.</p>
+            <div class="pedidos">
+                <button><a href="">Menu Casa</a></button>
+           </div>
+           <div class="pedidos">
+                <button><a href="">Menu Delivery</a></button>
+        </section>
+
+        <div class="linhaVertical">
+            <div class="vertical-line"></div>
+        </div>
+
+        <div class="SOBRE">
+            <div class="feitoComAmor">
+                <h1>CONFEITARIA LOBO - SABOR FEITO COM AMOR</h1>
+                <p>
+                    Na Confeitaria Lobo, acreditamos que cada mordida deve ser uma experiência única e deliciosa. Somos mais do que uma simples confeitaria; somos artesãos culinários apaixonados que transformam ingredientes de alta qualidade em obras-primas de sabor.
+                </p>
+            </div>
+        </div>
+
+        <div class="linhaHorizontal">
+            <div class=""></div>
+        </div>
+        
+        <article>
+            <section class="boloNevou">
+
+            </section>
+            <section class="macarrons">
+
+            </section>
+        </article>
+
+        
+
+
+
+
     </main> 
 
 

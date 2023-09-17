@@ -1,19 +1,28 @@
 
 
 function onLoadBlock(){
-    navBarLeft.style.display = 'block'
-    clickMenu();
+    navDrop.style.display = 'none';
+
+   let pedidos = document.querySelectorAll('.pedidos');
+   let logo = docuument.querySelector('.logo');
+
+   pedidos.forEach(pedido => {
+    fadeInLeft(pedido);
+   })
+
 }
 
+
 function clickMenu() {
-    if (navBarLeft.style.display == 'block') {
-        navBarLeft.style.display = 'none'   
+    if (navDrop.style.display == 'block') {
+        navDrop.style.display = 'none'; 
     } else {
-        navBarLeft.style.display = 'block'
+        navDrop.style.display = 'block';
     }
 }
 
 
-
-
-
+function fadeInLeft(element){
+element.style.setProperty("animation", "fadeInLeft")
+element.style.setProperty("animation-duration", "2s")
+}
