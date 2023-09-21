@@ -112,7 +112,7 @@ a {
 }
 
 .menuCasaDelivery {
-    background-color: rgba(198, 198, 198, 0.35);
+    background-color: #F2F2F2;
     margin-top: 30px;
 }
 
@@ -201,6 +201,30 @@ a {
 
 .boloNevou:hover, .macarrons:hover {
     transform: scale(1.1);
+}
+
+.since, .seloDeQualidade, .upToDate {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 1rem;
+}
+
+.since h3, .seloDeQualidade h3, .upToDate h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #86878B;
+}
+.seloDeQualidade p, .upToDate p {
+    margin-top: 20px;
+}
+.since p {
+    text-align: justify;
+    text-indent: 20px;
 }
 
 

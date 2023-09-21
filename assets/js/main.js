@@ -4,11 +4,13 @@ function onLoadBlock(){
     navDrop.style.display = 'none';
 
    let pedidos = document.querySelectorAll('.pedidos');
-   let logo = docuument.querySelector('.logo');
+   let logo = document.querySelector('.logo');
 
    pedidos.forEach(pedido => {
     fadeInLeft(pedido);
    })
+
+   fadeInLeft(logo);
 
 }
 
@@ -23,6 +25,5 @@ function clickMenu() {
 
 
 function fadeInLeft(element){
-element.style.setProperty("animation", "fadeInLeft")
-element.style.setProperty("animation-duration", "2s")
+element.style.setProperty("animation", "fadeInLeft 2s");
 }
