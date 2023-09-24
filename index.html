@@ -39,14 +39,6 @@
                     <li><a href="">CONTATO</a></li>
                     <li><a href="">TRABALHE CONOSCO</a></li>
                 </div>
-            
-
-            <form action="main.js" method="get" autocomplete="off">
-                <p>
-                    <label for="searchM"></label>
-                    <input type="search" name="search" id="searchM" placeholder="Search">
-                </p>
-            </form>
         </nav>
     </header>
     <main>
@@ -79,14 +71,14 @@
             <div class="vertical-line"></div>
         </div>
 
-        <div class="SOBRE">
+        <section class="SOBRE">
             <div class="feitoComAmor">
                 <h1>CONFEITARIA LOBO - SABOR FEITO COM AMOR</h1>
                 <p>
                     Na Confeitaria Lobo, acreditamos que cada mordida deve ser uma experiência única e deliciosa. Somos mais do que uma simples confeitaria; somos artesãos culinários apaixonados que transformam ingredientes de alta qualidade em obras-primas de sabor.
                 </p>
             </div>
-        </div>
+        </section>
 
         <div class="linhaHorizontal">
             <div class=""></div>
@@ -94,10 +86,10 @@
         
         <article>
             <section class="boloNevou">
-
+                <!---a imagem está no css-->
             </section>
             <section class="macarrons">
-
+                <!---a imagem está no css-->
             </section>
         </article>
 
@@ -119,10 +111,79 @@
             <p>Estamos sempre pesquisando novas receitas e ingredientes para levar ao cliente da Confeitaria Lobo a melhor e mais atual experiência no mercado gastronômico.</p>
         </section>
         
+        <article>
+            <section class="boloRosa">
+                <!---a imagem está no css-->
+            </section>
+        </article>
 
+        <section class="nossaCasa">
+            <h2>NOSSA CASA</h2>
+            <p><span class="iconCasa"><box-icon name='home-heart' type='solid' ></box-icon></span> A casa da Confeitaria Lobo <span class="iconCasa"><box-icon name='home-heart' type='solid' ></box-icon></span></p>
+        </section>
 
+        <section class="address">
+            <h3>SHOPPING SÃO GONÇALO</h3>
+                <div class="endereco">
+                    <p>Telefone | (21) 4002-8922</p>
+                    <p>Endereço:</p>
+                    <p>Rod. Niterói - Manilha, 100 - Boa Vista, São Gonçalo - RJ, 24466-970</p>
+                    <p>Rio de Janeiro - RJ</p>    
+                </div>
+                <div class="horario">
+                    <p>Horário de funcionamento:</p>
+                    <p>Segunda a Sábado de 10h às 22h</p>
+                    <p>Domingo de 13h às 21h</p>
+                </div>
+        </section>
 
+        <section class="reservas">
+            <h3>RESERVA</h3>
+            <span><box-icon name='calendar' type='solid' animation='flashing' ></box-icon></span>
+            <a href="#" class="botao">Clique aqui para reservar sua mesa.</a>
+        </section>
 
+        <article class="galeria">
+            <div class="linhaVertical">
+                <div class="vertical-line"></div>
+            </div>
+        </article>
+
+        <section class="galeriaNossaCasa">
+            <h4> - NOSSA CASA -</h4>
+        </section>
+       <section class="galeriaNossosProdutos">
+            <h4> - NOSSOS PRODUTOS -</h4>
+        </section>
+       
+        <section class="formulario">
+            <h2>CONTATO</h2>
+            <p> -Entre em contato com a Confeitaria Lobo-</p>
+            <p><strong>Não aceitNamos delivery por esse formulário</strong></p>
+
+            <form action="assets/js/form.js" method="post">
+                <fieldset>
+                    <label for="name">
+                        Nome 
+                        <input type="text" name="name" id="name" placeholder="Seu nome">
+                    </label>
+
+                    <label for="email"> 
+                        Email
+                        <input type="email" name="email" id="email" placeholder="Seu melhor email">
+                    </label>
+
+                    <label for="telefone"> 
+                        Telefone 
+                        <input type="tel" name="telefone" id="telefone" placeholder="Apenas números">
+                    </label>
+                    <label for="texto">
+                        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
     </main> 
 
 

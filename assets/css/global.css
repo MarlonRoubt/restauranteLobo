@@ -61,12 +61,6 @@ header {
 
 }
 
-form {
-    margin-top: 3rem;
-    text-align: center;
-    width: 100%;
-}
-
 main {
     background: url(../imagens/bebe.jpg) no-repeat center center;
     background-size: cover;
@@ -180,7 +174,7 @@ a {
 .macarrons {
     background: url(../imagens/macarron.jpg) no-repeat top;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     width: 85vw;
     margin: 0 auto;
     margin-top: 10px;
@@ -191,10 +185,9 @@ a {
 .boloNevou {
     background: url(../imagens/boloNevou.jpg) no-repeat top;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     width: 85vw;
     margin: 0 auto;
-    margin-top: 10px;
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
@@ -203,18 +196,18 @@ a {
     transform: scale(1.1);
 }
 
-.since, .seloDeQualidade, .upToDate {
+.since, .seloDeQualidade, .upToDate, .nossaCasa, .reservas{
     margin-top: 20px;
     margin-bottom: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     background-color: #F2F2F2;
     padding: 1rem;
 }
 
-.since h3, .seloDeQualidade h3, .upToDate h3 {
+.since h3, .seloDeQualidade h3, .upToDate h3, .address h3 {
     margin-bottom: 20px;
     margin-top: 20px;
     color: #86878B;
@@ -226,5 +219,158 @@ a {
     text-align: justify;
     text-indent: 20px;
 }
+
+.boloRosa {
+    background: url(../imagens/bolorosa.jpg) no-repeat top;
+    background-size: cover;
+    height: 80vh;
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.nossaCasa h2, .nossaCasa p {
+    margin-top: 20px;      
+}
+
+.nossaCasa p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: large;
+}
+
+.address h3 {
+    display: flex;
+    justify-content: flex-start;   
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+    width: 250px;
+}
+
+.address p {
+    margin-left: 20px;
+}
+
+.endereco, .horario {
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    box-shadow: 7px 7px 7px solid black;
+}
+
+
+.galeriaNossosProdutos {
+    background: url(../imagens/macarronFileira.jpg) no-repeat center;
+    background-size: cover;
+    height: 30vh;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.galeriaNossosProdutos h4, .galeriaNossaCasa h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2F2F2;
+    height: 100%;
+    
+}
+
+.galeriaNossaCasa {
+    background: url(../imagens/mesas.jpg) no-repeat center;
+    background-size: cover;
+    height: 30vh;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 1rem;
+    height: 70vh;
+}
+
+.formulario h2 {
+    margin-top: 3rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario h2, .formulario p {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 4px 4px 5px black;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color:#000;
+}
+
 
 
