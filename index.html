@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
 
 </head>
-<body onload="onLoadBlock()">
+<body onload="onLoadBlock()" onresize="mudouTamanho()">
     <header>
         <div class="logo">
             <div class="name">
@@ -51,32 +51,43 @@
            </div>
         </section>
 
-        <section class="imagens">
-            <!--imagemNoCSS-->
-        </section>
 
         <section class="menuCasaDelivery">
-            <h1>MENU</h1>
-            <hr>
-            <p>Nosso menu Delivery é reduzido pra garantir </p>
-            <p> a qualidade do Confeitaria Lobo na sua casa.</p>
-            <div class="pedidos">
-                <button><a href="">Menu Casa</a></button>
-           </div>
-           <div class="pedidos">
-                <button><a href="">Menu Delivery</a></button>
+            <section class="imagens">
+                <!--imagemNoCSS-->
+            </section>
+            <span>
+                <h1>MENU</h1>
+                <p>Nosso menu Delivery é reduzido pra garantir </p>
+                <p> a qualidade do Confeitaria Lobo na sua casa.</p>
+                <div class="pedidos">
+                    <button><a href="">Menu Casa</a></button>
+                </div>
+                <div class="pedidos">
+                    <button><a href="">Menu Delivery</a></button>
+                </div>
+
+            </span>
         </section>
 
         <div class="linhaVertical">
             <div class="vertical-line"></div>
         </div>
 
-        <section class="SOBRE">
+        <section class="sobre" onclick="scrollUpButton()" onclick="scrollDownButton()" >
             <div class="feitoComAmor">
-                <h1>CONFEITARIA LOBO - SABOR FEITO COM AMOR</h1>
-                <p>
-                    Na Confeitaria Lobo, acreditamos que cada mordida deve ser uma experiência única e deliciosa. Somos mais do que uma simples confeitaria; somos artesãos culinários apaixonados que transformam ingredientes de alta qualidade em obras-primas de sabor.
-                </p>
+                <div class="comAmor">
+                    <h1>CONFEITARIA LOBO - SABOR FEITO COM AMOR</h1>
+                    <p>
+                        Na Confeitaria Lobo, acreditamos que cada mordida deve ser uma experiência única e deliciosa. Somos mais do que uma simples confeitaria; somos artesãos culinários apaixonados que transformam ingredientes de alta qualidade em obras-primas de sabor.
+                    </p>
+                </div>
+                <div class="boloNevou">
+                    <!--Imagem no css-->
+                </div>
+                <div class="macarrons">
+                    <!--Imagem no css-->
+                </div>
             </div>
         </section>
 
@@ -84,40 +95,31 @@
             <div class=""></div>
         </div>
         
-        <article>
-            <section class="boloNevou">
-                <!---a imagem está no css-->
-            </section>
-            <section class="macarrons">
-                <!---a imagem está no css-->
-            </section>
-        </article>
-
-        <section class="since">
-            <h3>DESDE 2020</h3>
-            <p>Inaugurada em 2020, a Confeitaria Lobo, sob a liderança da confeiteira Thaynara Lobo, formada na Le Cordon Bleu, tem sido uma referência gastronômica no Rio de Janeiro. Com sua experiência no prestigioso hotel Copacabana Palace, incluindo uma estrela Michelin no restaurante Cipriani, Thaynara trouxe um toque de sofisticação francesa para suas criações de confeitaria. Suas sobremesas, que combinam técnicas refinadas com ingredientes locais, encantam até os paladares mais exigentes da cidade. A Confeitaria Lobo continua a surpreender e inovar, mantendo sua reputação de excelência na arte da confeitaria desde sua inauguração em 2020.
-            </p>
-        </section>
-
-        <section class="seloDeQualidade">
-            <h3>SELO DE QUALIDADE</h3>
-            <span class="icon"><box-icon name='check-shield' animation='flashing' ></box-icon></span>
-            <p>Utilizamos ingredientes selecionados e de primeira qualidade </p>
-        </section>
-
-        <section class="upToDate">
-            <h3>UP TO DATE</h3>
-            <span class="icon"><box-icon name='calendar-check' animation='flashing' ></box-icon></span>
-            <p>Estamos sempre pesquisando novas receitas e ingredientes para levar ao cliente da Confeitaria Lobo a melhor e mais atual experiência no mercado gastronômico.</p>
+        <section class="desde" onclick="scrollUpButton()">
+            <div class="since">
+                <h3>DESDE 2020</h3>
+                <p>Inaugurada em 2020, a Confeitaria Lobo, sob a liderança da confeiteira Thaynara Lobo, formada na Le Cordon Bleu, tem sido uma referência gastronômica no Rio de Janeiro. Com sua experiência no prestigioso hotel Copacabana Palace, incluindo uma estrela Michelin no restaurante Cipriani, Thaynara trouxe um toque de sofisticação francesa para suas criações de confeitaria. Suas sobremesas, que combinam técnicas refinadas com ingredientes locais, encantam até os paladares mais exigentes da cidade. A Confeitaria Lobo continua a surpreender e inovar, mantendo sua reputação de excelência na arte da confeitaria desde sua inauguração em 2020.
+                </p>
+            </div>
+            <div class="seloDeQualidade">
+                <h3>SELO DE QUALIDADE</h3>
+                <span class="icon"><box-icon name='check-shield' animation='flashing' ></box-icon></span>
+                <p>Utilizamos ingredientes selecionados e de primeira qualidade </p>
+            </div>
+            <div class="upToDate">
+                <h3>UP TO DATE</h3>
+                <span class="icon"><box-icon name='calendar-check' animation='flashing' ></box-icon></span>
+                <p>Estamos sempre testando novas receitas e ingredientes para levar ao cliente da Confeitaria Lobo a melhor e mais atual experiência no mercado gastronômico.</p>
+            </div>
         </section>
         
-        <article>
-            <section class="boloRosa">
+        <div class="rosaBolo">
+            <div class="boloRosa">
                 <!---a imagem está no css-->
-            </section>
-        </article>
+            </div>
+        </div>
 
-        <section class="nossaCasa">
+        <section class="nossaCasa" onclick="scrollUpButton()">
             <h2>NOSSA CASA</h2>
             <p><span class="iconCasa"><box-icon name='home-heart' type='solid' ></box-icon></span> A casa da Confeitaria Lobo <span class="iconCasa"><box-icon name='home-heart' type='solid' ></box-icon></span></p>
         </section>
@@ -137,7 +139,7 @@
                 </div>
         </section>
 
-        <section class="reservas">
+        <section class="reservas" onclick="scrollUpButton()">
             <h3>RESERVA</h3>
             <span><box-icon name='calendar' type='solid' animation='flashing' ></box-icon></span>
             <a href="#" class="botao">Clique aqui para reservar sua mesa.</a>
@@ -148,18 +150,19 @@
                 <div class="vertical-line"></div>
             </div>
         </article>
-
-        <section class="galeriaNossaCasa">
-            <h4> - NOSSA CASA -</h4>
-        </section>
-       <section class="galeriaNossosProdutos">
-            <h4> - NOSSOS PRODUTOS -</h4>
-        </section>
+        <article class="nossaCasaEProdutos">
+            <section class="galeriaNossaCasa">
+                <h4> - NOSSA CASA -</h4>
+            </section>
+           <section class="galeriaNossosProdutos">
+                <h4> - NOSSOS PRODUTOS -</h4>
+            </section>
+        </article>
        
-        <section class="formulario">
+        <section class="formulario" onclick="click()">
             <h2>CONTATO</h2>
             <p> -Entre em contato com a Confeitaria Lobo-</p>
-            <p><strong>Não aceitNamos delivery por esse formulário</strong></p>
+            <p><strong>Não aceitamos delivery por esse formulário</strong></p>
 
             <form action="assets/js/form.js" method="post">
                 <fieldset>
@@ -184,7 +187,19 @@
                 <input type="submit" value="Enviar">
             </form>
         </section>
+        <footer class="rodaPe">
+            <div>
+                <p>&copy; <strong>Todos os direitos reservados 2023</strong></p>
+            </div>
+            <a href="https://github.com/MarlonRoubt" target="_blank"><img src="assets/imagens/git.png" alt="gitHub" class="imagem1"></a>
+            <a href="https://www.linkedin.com/in/marlonroubt/" target="_blank"><img src="assets/imagens/likedin.png" alt="linkedin" class="imagem3"></a>
+            <div>
+                <p>Site desenvolvido por Marlon Roubt.</p>
+                <p><span>Site fictício e totalmente para fins didáticos</span></p>
+            </div>
+        </footer>
     </main> 
+   
 
 
     <script src="./assets/js/main.js"></script>

@@ -102,15 +102,16 @@ a {
     height: 70vh;
     width: 80vw;
     margin: 0 auto;
-    margin-top: 30px;
 }
 
 .menuCasaDelivery {
     background-color: #F2F2F2;
-    margin-top: 30px;
+    margin-top: 50px;
+    height: auto;
+    max-width: 100%;
 }
 
-.menuCasaDelivery {
+span {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +136,11 @@ a {
     transform: scale(1.1);
 }
 
-.feitoComAmor {
+.feitoComAmor, .comAmor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -168,7 +173,11 @@ a {
 .linhaHorizontal {
     font-weight: bolder;
     font-size: 80px;
-    margin-top: 20px;
+    border-top: 1px solid black;
+    width: 80%;
+    margin:20px auto;
+    
+    
 }
 
 .macarrons {
@@ -176,8 +185,9 @@ a {
     background-size: cover;
     height: 80vh;
     width: 85vw;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 25p;
+    margin-bottom: 15px;
+    margin: auto;
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
@@ -187,13 +197,19 @@ a {
     background-size: cover;
     height: 80vh;
     width: 85vw;
-    margin: 0 auto;
+    margin: 25px auto;
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
 
 .boloNevou:hover, .macarrons:hover {
     transform: scale(1.1);
+}
+
+.sobre{
+    display:flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 .since, .seloDeQualidade, .upToDate, .nossaCasa, .reservas{
@@ -243,6 +259,13 @@ a {
     font-size: large;
 }
 
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .address h3 {
     display: flex;
     justify-content: flex-start;   
@@ -313,9 +336,7 @@ a {
     display: flex;
     flex-direction: column; 
     align-items: center;
-    background-color: #F2F2F2;
     padding: 1rem;
-    height: 70vh;
 }
 
 .formulario h2 {
@@ -325,6 +346,7 @@ a {
 form {
     max-width: 400px;
     margin: 0 auto;
+    height: 100%;
 }
 
 fieldset {
@@ -373,4 +395,25 @@ input[type="submit"]:hover {
 }
 
 
+.rodaPe {
+    background-color: var(--cor-de-fundo);
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 
+
+}
+
+.rodaPe p {
+    color: white;
+}
+.imagem1, .imagem2, .imagem3 {
+    height: 35px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+
+}

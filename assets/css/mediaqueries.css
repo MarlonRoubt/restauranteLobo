@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*
+Mobile Devices – 320px — 480px
+iPads and Tablets – 481px — 768px
+Laptops and small screen – 769px — 1024px
+Large screens and Desktops – 1025px — 1200px
+TV and Extra Large Screens – 1201px and more
+*/
+
+@media screen and (min-width: 769px) {
+   header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   }
+
+   #menu {
+    display: none;
+   }
+
+   #navDrop {
+    display: block;
+    height: 0.7rem;
+    width: 70%;
+    margin-left: 10rem;
+   }
+
+   .navMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+   }
+
+   li {
+    margin: 10px;
+   }
+
+   .pedirOnlineOuReserva {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   }
+
+  .menuCasaDelivery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+    max-width: 100%;
+  }
+  span {
+    margin: 0 10px;
+  }
+
+  .feitoComAmor, .rosaBolo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    height: auto;
+  }
+
+  .linhaHorizontal {
+    height: 1px;
+  }
+
+  .desde {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .since, .upToDate, .seloDeQualidade {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    min-width: 270px;
+    margin: 10px;
+    font-size: small;
+
+  }
+
+  .macarrons, .boloNevou, .boloRosa, .imagens {
+    height: 100vh;
+  }
+
+ .boloRosa {
+    height: auto;
+    max-width: 100% ;
+ }
+ } 
+
+ .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .reservas, .galeria {
+    height: auto;
+    max-width: 100%;
+ }
+
+
+.rodaPe {
+    background-color: var(--cor-de-fundo);
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+
+.rodaPe p {
+    color: white;
+}
+.imagem1, .imagem2, .imagem3 {
+    height: 35px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+
+
+ 
+  
+   
