@@ -403,7 +403,6 @@ input[type="submit"]:hover {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid yellow;
 }
 
 .rodaPe1 {
