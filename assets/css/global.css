@@ -411,11 +411,11 @@ input[type="submit"]:hover {
 
 .rodaPe p {
     color: white;
+    font-size: large;
 }
 .imagem1, .imagem3 {
     height: 35px;
     background-color: #000;
     margin: 10px;
     border-radius: 5px;
-
 }
