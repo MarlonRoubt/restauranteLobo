@@ -118,12 +118,13 @@ TV and Extra Large Screens – 1201px and more
 .rodaPe {
     background-color: var(--cor-de-fundo);
     height: 230px;
+}
+.rodaPe1 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     text-align: center;
-
-
+    flex-direction: row;
 }
 
 .rodaPe p {

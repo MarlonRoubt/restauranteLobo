@@ -398,19 +398,22 @@ input[type="submit"]:hover {
 .rodaPe {
     background-color: var(--cor-de-fundo);
     height: 230px;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    border: 1px solid yellow;
+}
 
-
+.rodaPe1 {
+    margin: 0 auto;
 }
 
 .rodaPe p {
     color: white;
 }
-.imagem1, .imagem2, .imagem3 {
+.imagem1, .imagem3 {
     height: 35px;
     background-color: #000;
     margin: 10px;
