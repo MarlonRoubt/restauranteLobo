@@ -88,11 +88,17 @@ TV and Extra Large Screens – 1201px and more
     min-width: 270px;
     margin: 10px;
     font-size: small;
+  
 
   }
 
   .macarrons, .boloNevou, .boloRosa, .imagens {
     height: 100vh;
+  }
+
+  .macarrons, .boloNevou {
+    width: max(10rem, 30vw);
+    margin-right: 1rem;
   }
 
  .boloRosa {

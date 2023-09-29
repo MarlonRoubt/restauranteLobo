@@ -230,6 +230,7 @@ span {
 }
 .seloDeQualidade p, .upToDate p {
     margin-top: 20px;
+    text-align: justify;
 }
 .since p {
     text-align: justify;
