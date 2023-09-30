@@ -5,6 +5,8 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 :root {
@@ -17,7 +19,7 @@
 header {
     background-color: var(--cor-de-fundo);
     color: var(--cor-de-fonte);
-    height: 7rem;
+    height: 9rem;
     padding: 1.5rem;
 }
 
@@ -44,7 +46,7 @@ header {
 #navDrop {
     background-color: var(--cor-de-fundo);
     border-radius: 5px;
-    height: 26.8rem;
+    height: 27.3rem;
     padding: 10px 0 10px 0;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.696);
     position: absolute;
