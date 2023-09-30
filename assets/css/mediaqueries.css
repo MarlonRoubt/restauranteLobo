@@ -38,7 +38,7 @@ TV and Extra Large Screens – 1201px and more
     margin: 10px;
    }
 
-   .pedirOnlineOuReserva {
+   #pedirOnlineOuReserva {
     display: flex;
     flex-direction: row;
     gap: 10px;
